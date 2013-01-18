@@ -1,5 +1,7 @@
 # Step
 
+[an example][2] 
+
 A simple control-flow library for node.JS that makes parallel execution, serial execution, and error handling painless.
 
 ## How to install
@@ -69,3 +71,5 @@ Also you can use group with a dynamic number of common tasks.
     );
 
 *Note* that we both call `this.group()` and `group()`.  The first reserves a slot in the parameters of the next step, then calling `group()` generates the individual callbacks and increments the internal counter.
+
+[2]: whatup
